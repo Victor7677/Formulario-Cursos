@@ -6,7 +6,7 @@
         </div>
         <div class="form-group">
             <label for="senha">Senha:</label>
-            <input type="password" name="senha" id="senha" class="form-control">
+            <input type="password" name="senha" id="senha" class="form-control ">
         </div>
         <button class="btn btn-primary">
             Entrar

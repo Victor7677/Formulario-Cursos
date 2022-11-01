@@ -7,8 +7,8 @@
             <input type="text"
                    id="descricao"
                    name="descricao"
-                   class="form-control"
-                   value="<?= isset($curso) ? $curso->getDescricao():'';?>">
+                   class="form-control mb-2"
+                   value="<?= isset($curso) ? $curso->getDescricao():'';?>"
 
             </input>
             <button class="btn btn-primary">Salvar</button>

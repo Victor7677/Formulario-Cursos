@@ -3,10 +3,12 @@
 namespace Alura\Cursos\Controller;
 
 use Alura\Cursos\Entity\Curso;
+use Alura\Cursos\Helper\RederizadorDeHtmlTrait;
 use Alura\Cursos\Infra\EntityManagerCreator;
 
-class Edicao extends ControllerHtml implements InterfaceControladorRequisicao
+class Edicao implements InterfaceControladorRequisicao
 {
+    use RederizadorDeHtmlTrait;
     /**
      * @var \Doctrine\ORM\EntityRepository
      */
